@@ -15,7 +15,7 @@ export default function Landing() {
             <div className="w-8 h-8 gradient-farm-primary rounded-md flex items-center justify-center">
               <Sprout className="w-5 h-5 text-white" />
             </div>
-            <span className="text-xl font-bold text-foreground">SmartFarm AI</span>
+            <span className="text-xl font-heading font-bold text-foreground">SmartFarm AI</span>
           </div>
           <div className="flex items-center gap-4">
             <Link to="/dashboard">
@@ -38,10 +38,10 @@ export default function Landing() {
                   <Zap className="w-3 h-3 mr-1" />
                   AI-Powered Agriculture
                 </Badge>
-                <h1 className="text-4xl lg:text-6xl font-bold leading-tight">
-                  <span className="gradient-farm-primary bg-clip-text text-transparent">Empowering Farmers</span>
+                <h1 className="text-4xl lg:text-6xl font-heading font-bold leading-tight">
+                  <span className="text-primary">Empowering Farmers</span>
                   <br />
-                  with AI Technology
+                  <span className="text-foreground">with AI Technology</span>
                 </h1>
                 <p className="text-xl text-muted-foreground max-w-lg">
                   Monitor, analyze, and grow smarter with our comprehensive AI farming dashboard. 
@@ -99,7 +99,7 @@ export default function Landing() {
       <section className="py-20 bg-muted/50">
         <div className="container mx-auto px-6">
           <div className="text-center space-y-4 mb-16">
-            <h2 className="text-3xl lg:text-5xl font-bold">Why Choose SmartFarm AI?</h2>
+            <h2 className="text-3xl lg:text-5xl font-heading font-bold">Why Choose SmartFarm AI?</h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
               Comprehensive tools to revolutionize your farming operations with cutting-edge AI technology
             </p>
@@ -161,7 +161,7 @@ export default function Landing() {
       <section className="py-20">
         <div className="container mx-auto px-6 text-center">
           <div className="space-y-6 max-w-3xl mx-auto">
-            <h2 className="text-3xl lg:text-5xl font-bold">
+            <h2 className="text-3xl lg:text-5xl font-heading font-bold">
               Ready to Transform Your Farm?
             </h2>
             <p className="text-xl text-muted-foreground">
@@ -190,7 +190,7 @@ export default function Landing() {
               <div className="w-8 h-8 gradient-farm-primary rounded-md flex items-center justify-center">
                 <Sprout className="w-5 h-5 text-white" />
               </div>
-              <span className="text-xl font-bold">SmartFarm AI</span>
+              <span className="text-xl font-heading font-bold">SmartFarm AI</span>
             </div>
             <p className="text-muted-foreground">
               Empowering farmers with AI-driven insights for sustainable agriculture
